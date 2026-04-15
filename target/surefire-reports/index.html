@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,16 +104,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Appium_Test_Suite" title="com.appium.tests.SampleTest" class="method navigator-link" hash-for-method="testAppLaunch">testAppLaunch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Appium_Test_Suite" title="com.appium.tests.SampleTest" class="method navigator-link" hash-for-method="testElementPresence">testElementPresence</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Appium_Test_Suite" title="com.appium.tests.SampleTest" class="method navigator-link" hash-for-method="testTextInput">testTextInput</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Appium_Test_Suite -->
@@ -139,20 +129,6 @@
                   <a name="testAppLaunch">
                   </a> <!-- testAppLaunch -->
                   <span class="method-name">testAppLaunch</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testElementPresence">
-                  </a> <!-- testElementPresence -->
-                  <span class="method-name">testElementPresence</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTextInput">
-                  </a> <!-- testTextInput -->
-                  <span class="method-name">testTextInput</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,24 +185,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testElementPresence')
+data.setCell(0, 1, 'testAppLaunch')
 data.setCell(0, 2, 'com.appium.tests.SampleTest')
-data.setCell(0, 3, 860);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testAppLaunch')
-data.setCell(1, 2, 'com.appium.tests.SampleTest')
-data.setCell(1, 3, 58);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testTextInput')
-data.setCell(2, 2, 'com.appium.tests.SampleTest')
-data.setCell(2, 3, 26);
+data.setCell(0, 3, 55);
 window.suiteTableData['Appium_Test_Suite']= { tableData: data, tableDiv: 'times-div-Appium_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 944 ms</span>
+              <span class="suite-total-time">Total running time: 55 ms</span>
               <div id="times-div-Appium_Test_Suite">
               </div> <!-- times-div-Appium_Test_Suite -->
             </div> <!-- times-div -->
@@ -241,9 +209,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Appium_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.appium.tests.SampleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testElementPresence</span>
+                <br/>
+                <span class="ignored-method-name">testTextInput</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Appium_Test_Suite" class="panel">
@@ -259,19 +236,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testAppLaunch</span>
-                <span class="method-start">2576 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testElementPresence</span>
-                <span class="method-start">2635 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testTextInput</span>
-                <span class="method-start">3496 ms</span>
+                <span class="method-start">2742 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3523 ms</span>
+                <span class="method-start">2798 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

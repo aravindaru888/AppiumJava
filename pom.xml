@@ -20,6 +20,7 @@
         <appium.version>8.6.0</appium.version>
         <selenium.version>4.15.0</selenium.version>
         <testng.version>7.8.0</testng.version>
+        <log4j.version>2.21.0</log4j.version>
     </properties>
 
     <dependencies>
@@ -63,13 +64,20 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.21.0</version>
+            <version>${log4j.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
-            <version>2.21.0</version>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- SLF4J to Log4j2 Bridge -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
 

@@ -1,0 +1,9 @@
+2026-04-15 07:51:00.708 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-04-15 07:51:00.763 [main] INFO  com.appium.base.BaseTest - Setting up Appium driver...
+2026-04-15 07:51:00.769 [main] INFO  com.appium.utils.AppiumServerManager - Appium server is running on 127.0.0.1:4723
+2026-04-15 07:51:00.769 [main] INFO  com.appium.utils.AppiumServerManager - Server already running
+2026-04-15 07:51:03.497 [main] INFO  com.appium.base.BaseTest - Appium driver initialized successfully
+2026-04-15 07:51:03.504 [main] INFO  com.appium.tests.SampleTest - Test 1: Verifying app launch
+2026-04-15 07:51:03.557 [main] INFO  com.appium.tests.SampleTest - Current package: io.appium.android.apis
+2026-04-15 07:51:03.559 [main] INFO  com.appium.base.BaseTest - Closing Appium driver...
+2026-04-15 07:51:03.775 [main] INFO  com.appium.base.BaseTest - Appium driver closed

@@ -1,4 +1,5 @@
 com/appium/base/BaseTest.class
+com/appium/pages/SamplePage.class
 com/appium/utils/CapabilityManager.class
 com/appium/pages/BasePage.class
 com/appium/utils/WaitUtil.class
